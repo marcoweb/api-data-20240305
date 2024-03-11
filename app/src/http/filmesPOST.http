@@ -1,0 +1,7 @@
+POST https://8080-marcoweb-apidata2024030-55hq4vwyq05.ws-eu108.gitpod.io/filmes
+Content-Type: application/json
+
+{
+    "titulo": "Exemplo Novo",
+    "sinopse": "Teste de POST Novo"
+}
