@@ -1,6 +1,6 @@
-POST https://8080-marcoweb-apidata2024030-55hq4vwyq05.ws-eu108.gitpod.io/diretores
+POST https://8080-marcoweb-apidata2024030-1q4rejtpkdq.ws-us108.gitpod.io/diretores
 Content-Type: application/json
 
 {
-    "nome": "Novo Diretor"
+    "nome": "Testando"
 }

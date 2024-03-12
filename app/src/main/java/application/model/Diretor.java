@@ -1,5 +1,6 @@
 package application.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import jakarta.persistence.Entity;
@@ -18,7 +19,7 @@ public class Diretor {
     private String nome;
 
     @OneToMany(mappedBy = "diretor")
-    private List<Filme> filmes;
+    private List<Filme> filmes = new ArrayList<Filme>();
 
     public Long getId() {
         return id;
